@@ -16,8 +16,7 @@
 	<meta content="summary" name="twitter:card" />
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<meta content="Webflow" name="generator" />
-	<link href="webflow.css"
-		rel="stylesheet" type="text/css" />
+	<link href="webflow.css" rel="stylesheet" type="text/css" />
 	<style>
 		@media (min-width:992px) {
 			html.w-mod-js:not(.w-mod-ix) [data-w-id="697d02a9-65dd-8d45-8c61-f13fd234974d"] {
@@ -597,6 +596,12 @@
 	<link href="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d29850fe06f4c1b4e9a52ca_Goonies-lg.jpg"
 		rel="apple-touch-icon" />
 	<style>
+		.slick-track{
+			width: auto !important;
+		}
+		.slick-slide.slick-current.slick-active{
+			width: auto !important;
+		}
 		::-moz-selection {
 			/* Code for Firefox */
 			color: black;
@@ -835,6 +840,9 @@
 <body data-scroll-time="2.0">
 	<div class="w-embed">
 		<style>
+			#chg{
+				cursor: pointer;
+			}
 			body {
 				-webkit-font-smoothing: antialiased;
 				-moz-osx-font-smoothing: grayscale;
@@ -901,7 +909,7 @@
 			}
 		</style>
 
-		
+
 	</div>
 	<div id="map-child" data-w-id="8711db79-a234-bf26-5b82-cad62457d38f"
 		style="width:0%;height:100%;background-color:rgba(0,0,0,0);display:none" class="map-child">
@@ -915,38 +923,19 @@
 				style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
 				alt="" class="close" /></div>
 		<div style="opacity:0" class="number-count">
-			<div data-w-id="686ff4a8-3d63-b5d2-efa6-1ed12f8780c8" style="color:rgb(255,255,255)" class="m-num">1</div>
-			<div data-w-id="ec092335-177f-017b-77f5-561a5ab129c3" style="color:rgb(255,255,255)" class="m-num">2</div>
-			<div data-w-id="f1d3f4a9-0ee7-3f29-340d-e1402cf43efa" style="color:rgb(255,255,255)" class="m-num">3</div>
+			<div id="chg" style="color:rgb(255,255,255)" class="m-num" onclick="document.getElementById('itnimg').src = 'img/gallery/1.jpeg'">1</div>
+			<div id="chg" style="color:rgb(255,255,255)" class="m-num" onclick="document.getElementById('itnimg').src = 'img/gallery/2.jpeg'">2</div>
+			<div id="chg" style="color:rgb(255,255,255)" class="m-num" onclick="document.getElementById('itnimg').src = 'img/gallery/3.jpeg'">3</div>
 		</div>
 		<div style="opacity:0" class="message">
-			<div class="m-num">Explore the riddle</div>
+			<div class="m-num">Itinerary</div>
 		</div>
-		<div data-w-id="3adb6ece-45ee-1adb-6e9c-f4544412d9fb" class="map-container">
-			<div style="opacity:0" class="map-bg">
-				<div data-w-id="606051ef-7128-2b45-ca00-500e30e3b976" style="width:0PX" class="map-content-parent-2">
-					<h2 data-w-id="21c7eec7-460d-42dd-a321-d42ba87c010f" style="opacity:0" class="img-head-map">DEAD
-					</h2><img
-						src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull.png"
-						width="18"
-						srcset="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull-p-500.png 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull-p-800.png 800w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull.png 820w"
-						sizes="(max-width: 991px) 100vw, 2vw" data-w-id="95f61c50-29a1-4b7e-756b-e2c8f282e52c"
-						style="opacity:0" alt="" />
+		<div data-w-id="" class="map-container">
+			<div class="fade">
+				<div><img id="itnimg" src="img/gallery/1.jpeg" alt="Girl in a jacket">
 				</div>
-				<div data-w-id="721e3e8c-8f5b-df32-b941-bb0fc59c4e23" style="width:0PX" class="map-content-parent-1">
-					<div data-w-id="721e3e8c-8f5b-df32-b941-bb0fc59c4e24" style="opacity:0" class="info-txt-map">If you
-						make too many mistakes. ye will surely be...</div>
-				</div>
-				<div data-w-id="33c53cb1-a1d4-a619-6bdd-611e4c09aa4c" style="width:0PX" class="map-content-parent">
-					<div data-w-id="33c53cb1-a1d4-a619-6bdd-611e4c09aa4d" style="opacity:0" class="info-txt-map">To move
-						on, play the tune... as each note is said</div>
-				</div>
-				<div data-w-id="9c44e59b-c426-b4c7-8d46-844072810930" class="pulse-dot-map"></div>
-				<div data-w-id="30d4821d-3a78-3a44-889f-73167c3d3cc4" style="opacity:0" class="pulse-dot-map two"></div>
-				<div data-w-id="051a6306-bcc9-338e-85c7-0f5bb752000d" style="opacity:0" class="pulse-dot-map three">
-				</div>
-				<div style="opacity:1" class="map-bg-img"></div>
 			</div>
+			
 		</div>
 	</div>
 	<div data-w-id="1230903e-5606-deac-9782-e0e9e00418ce" style="opacity:0" class="map-parent"><img
@@ -961,6 +950,7 @@
 			style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
 			alt="" class="icon" />
 		<div style="opacity:1;width:0PX;height:0PX" class="pulse-ring"></div>
+		<p style="position:relative; top:40%; color: whitesmoke;">Itinerary</p>
 	</div>
 	<nav data-w-id="4a31b02d-fc53-ebc1-17d8-b14705020607"
 		style="-webkit-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
@@ -972,7 +962,7 @@
 			<li><a href="#events" class="nav-link">Events</a>
 				<div class="pulse-dot-0"></div>
 			</li>
-			
+
 			<li><a href="#sponsors" class="nav-link">Sponsors</a>
 				<div class="pulse-dot-0"></div>
 			</li>
@@ -996,7 +986,7 @@
 		<div class="html-embed-3 w-embed w-iframe"><iframe width="100%" height="166" scrolling="no" frameborder="no"
 				allow="autoplay"
 				src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/23527051&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-				
+
 			<style>
 				body {
 					-webkit-font-smoothing: antialiased;
@@ -1044,19 +1034,20 @@
 			<div class="hero-parent">
 				<div data-w-id="d71726fa-8aba-407f-0581-2d6e6f566dc1" style="opacity:0" class="sub-title">
 					Poornima Aarohan
-				</div><img
-					src="tagl.png"
-					width="428"
-					srcset="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeb65d43eb732944316c4_logo-p-500.png 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeb65d43eb732944316c4_logo-p-800.png 800w, tagl.png 856w"
+				</div><img src="tagl.png" width="428"
+					srcset="tagl.png 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeb65d43eb732944316c4_logo-p-800.png 800w, tagl.png 856w"
 					sizes="(max-width: 479px) 80vw, 428px" data-w-id="ca84ad73-51dc-7491-b9e2-9fc26309c49d"
 					style="opacity:0;-webkit-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 50PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
 					alt="" class="logo-lg" />
 			</div>
 			<div class="intro-parent">
 				<h1 class="head">About Poornima Aarohan</h1>
-				<p class="text-a-1">Poornima Aarohan is the significant College fest conducted by Poornima group of Colleges.
+				<p class="text-a-1">Poornima Aarohan is the significant College fest conducted by Poornima group of
+					Colleges.
 
-					It is a commingle of the series of meticulous activities likely steamy cultural manoeuvre, amusing club activities, smashing sport pursuit, aggregating it into the most momentous and noteworthy event.</p>
+					It is a commingle of the series of meticulous activities likely steamy cultural manoeuvre, amusing
+					club activities, smashing sport pursuit, aggregating it into the most momentous and noteworthy
+					event.</p>
 				<div class="draw-line">
 					<div class="draw-line-inner"></div>
 				</div>
@@ -1077,7 +1068,7 @@
 							width="18" alt="" class="drag close" />
 						<div data-w-id="e665a47e-03df-db32-28f5-b1ac2eaa5067" class="info-head-parent"></div>
 						<div data-w-id="be85670b-7820-585c-b9d0-d04cf41f0417" class="info-content-parent">
-							<h2 class="img-head-2">Mikey</h2>
+							<h2 class="img-head-2">Jass Manak</h2>
 							<p class="text-a-3">When Mikey was younger, his father used to tell him various stories of
 								grand adventure, including the story of One-Eyed Willy.</p>
 							<p class="text-a-4">Facing foreclosure of their homes in the Goon Docks area of Astoria,
@@ -1115,7 +1106,7 @@
 							width="20" alt="" class="drag" />
 						<div data-w-id="602cc19b-fb96-91cd-ea93-7e2ca08404fe" class="info-head-parent _1"></div>
 						<div data-w-id="602cc19b-fb96-91cd-ea93-7e2ca08404ff" class="info-content-parent">
-							<h2 class="img-head-2">Chunk</h2>
+							<h2 class="img-head-2">DJ BAT</h2>
 							<p class="text-a-3">Chunk has previously prank called the Sheriff, claiming multiple
 								outlandish stories and getting himself into a lot of trouble. He&#x27;s also caused a
 								lot of trouble around town, pulling pranks and causing general mischief with the people
@@ -1173,7 +1164,7 @@
 						</video></div>
 					<div data-w-id="9919f10a-0cf1-d01b-2179-0e43b89a1460" class="img-cast-3"></div>
 					<div data-w-id="9919f10a-0cf1-d01b-2179-0e43b89a1461" class="img-content-parent">
-						<h2 class="img-head">Data</h2>
+						<h2 class="img-head">Pro Bros</h2>
 						<div class="btn-parent"><a href="#" class="link">More Info</a><img
 								src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d00256012408bddc81a0512_arrow.png"
 								width="15" alt="" /></div>
@@ -1209,7 +1200,7 @@
 							width="20" alt="" class="drag" />
 						<div data-w-id="cee2d40d-00b3-df63-99a1-8984a30d202b" class="info-head-parent _4"></div>
 						<div data-w-id="cee2d40d-00b3-df63-99a1-8984a30d202c" class="info-content-parent">
-							<h2 class="img-head-2">Mouth</h2>
+							<h2 class="img-head-2">Dj Harsh Bhutani</h2>
 							<p class="text-a-3">The day before the Goon Docks are to be demolished by Mr. Perkins, Mouth
 								makes one last visit to Mikey&#x27;s house. After therest of his friends arrive, they
 								hang out; he offers to help Mikey&#x27;s mother with translating for Rosalita, a maid
@@ -1266,44 +1257,36 @@
 			src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d25ce8103e41038cf3b4be7_coin-1.png"
 			width="119" alt="" class="coin-1" />
 	</div>
-	<div id="sponsors class="scroll-container-2">
+	<div id="sponsors class=" scroll-container-2">
 		<div class="sticky-container-2">
 			<div data-w-id="bf6902db-7dcd-0a5e-5dc4-93fc6d261904" class="w-layout-grid grid-1">
-				<div id="w-node-76837d60a4a5-b4a9d5ce" data-w-id="1c1af68e-cb3c-ff7a-10a9-76837d60a4a5"
-					class="grid-parent b-l">
-					<div class="grid-postion">
-						<div class="text-hide-parent">
-							<h2 data-w-id="c47a18e0-9c5b-eacb-8b49-87af0e05b818"
-								style="-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-								class="img-head-3">1985</h2>
-							<h2 style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-								class="img-head-3 a-p">1985</h2>
-						</div>
+				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
 					</div>
-					<h3 data-w-id="1c1af68e-cb3c-ff7a-10a9-76837d60a4a7"
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
-						Release date</h3>
-					<div data-w-id="1c1af68e-cb3c-ff7a-10a9-76837d60a4a9"
+						Distributed by</h3>
+					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-						class="info-txt">June 7, 1985</div>
+						class="info-txt">Warner Bros</div> -->
 				</div>
-				<div id="w-node-27a6412478c8-b4a9d5ce" data-w-id="277df8dc-d453-46b6-b4ea-27a6412478c8"
-					class="grid-parent b-m">
-					<div data-w-id="b05ed4f0-4111-853d-aabc-465a6c91a17a"
-						style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-						class="grid-bg-img _1"></div>
-					<h3 data-w-id="419edb42-8bf2-11ac-e795-58f688f2def2"
+				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
+					</div>
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
-						Story by</h3>
-					<div data-w-id="f540ca25-bbc6-ed3a-dab9-eaa443e4c06a"
+						Distributed by</h3>
+					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-						class="info-txt">Steven Spielberg</div>
+						class="info-txt">Warner Bros</div> -->
 				</div>
-				<div id="nav-two" data-w-id="1c167c3d-709a-4095-70e4-61bf2a7e7cdd"
+				<!-- <div id="nav-two" data-w-id="1c167c3d-709a-4095-70e4-61bf2a7e7cdd"
 					class="grid-parent no-b-l w-node-61bf2a7e7cdd-b4a9d5ce">
 					<div id="nav-two" class="grid-postion-full"><img
-							src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d07ef8017bf61e4a0e439b1_sloth.png"
-							srcset="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d07ef8017bf61e4a0e439b1_sloth-p-500.png 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d07ef8017bf61e4a0e439b1_sloth.png 647w"
+							src="img/tba.png"
+							srcset="img/tba.png 500w, img/tba.png 647w"
 							sizes="(max-width: 479px) 99vw, (max-width: 767px) 250px, 320px"
 							style="opacity:0.3;-webkit-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 101%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
 							alt="" class="sloth" /></div>
@@ -1313,83 +1296,79 @@
 					<div data-w-id="1c167c3d-709a-4095-70e4-61bf2a7e7ce3"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
 						class="info-txt">Amblin Entertainment</div>
-				</div>
+				</div> -->
 				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
-					<div class="grid-postion"><img
-							src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d0803429c4398257ab505c0_logo.png"
-							width="80" data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
 					</div>
-					<h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
 						Distributed by</h3>
 					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-						class="info-txt">Warner Bros</div>
+						class="info-txt">Warner Bros</div> -->
 				</div>
-				<div id="w-node-14687a4002a2-b4a9d5ce" data-w-id="ee9860da-b6ce-796b-b682-14687a4002a2"
-					class="grid-parent no-b b-l">
-					<div class="grid-postion border-top">
-						<div class="text-hide-parent">
-							<h2 data-w-id="4c5e52a5-ee6b-7dd9-4979-1af244309703"
-								style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-								class="img-head-3">$19M</h2>
-							<h2 style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-								class="img-head-3 a-p">$19M</h2>
-						</div>
+				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
 					</div>
-					<h3 data-w-id="ee9860da-b6ce-796b-b682-14687a4002a6"
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
-						Budget</h3>
-					<div data-w-id="ee9860da-b6ce-796b-b682-14687a4002a8"
+						Distributed by</h3>
+					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-						class="info-txt">$19 Million</div>
+						class="info-txt">Warner Bros</div> -->
 				</div>
-				<div id="w-node-57b857f37702-b4a9d5ce" data-w-id="0a951ad5-7c67-5931-b624-57b857f37702"
-					class="grid-parent no-b hide-b">
-					<div class="grid-postion-top"><img
-							src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d08043c2f4d705660dc08e6_Dave%20Grusin.jpg"
-							srcset="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d08043c2f4d705660dc08e6_Dave%20Grusin-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d08043c2f4d705660dc08e6_Dave%20Grusin-p-800.jpeg 800w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d08043c2f4d705660dc08e6_Dave%20Grusin.jpg 872w"
-							sizes="(max-width: 479px) 90vw, (max-width: 767px) 89vw, (max-width: 958px) 91vw, 872px"
-							style="-webkit-transform:translate3d(0, -100VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -100VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -100VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -100VH, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0.3"
-							alt="" class="dave" /></div>
-					<h3 data-w-id="0a951ad5-7c67-5931-b624-57b857f37705"
-						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
-						Music by</h3>
-					<div data-w-id="0a951ad5-7c67-5931-b624-57b857f37707"
-						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-						class="info-txt">Dave Grusin</div>
-				</div>
-				<div id="w-node-05aac12a85e1-b4a9d5ce" data-w-id="5ac5c219-dec1-91bc-c704-05aac12a85e1"
-					class="grid-parent no-bl-2">
-					<div class="grid-postion border-top-1">
-						<div class="text-hide-parent">
-							<h2 data-w-id="a4546784-58d6-9782-baf0-a634206749de"
-								style="-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-								class="img-head-3">$61M</h2>
-							<h2 style="-webkit-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-								class="img-head-3 a-p">$61M</h2>
-						</div>
+				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
 					</div>
-					<h3 data-w-id="5ac5c219-dec1-91bc-c704-05aac12a85e5"
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
-						Box Office</h3>
-					<div data-w-id="5ac5c219-dec1-91bc-c704-05aac12a85e7"
+						Distributed by</h3>
+					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
 						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
-						class="info-txt">$61 Million</div>
+						class="info-txt">Warner Bros</div> -->
+				</div>
+				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
+					</div>
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
+						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
+						Distributed by</h3>
+					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
+						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+						class="info-txt">Warner Bros</div> -->
+				</div>
+				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
+					</div>
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
+						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
+						Distributed by</h3>
+					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
+						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+						class="info-txt">Warner Bros</div> -->
+				</div>
+				<div id="w-node-461dac42d3d9-b4a9d5ce" class="grid-parent no-b m-b">
+					<div class="grid-postion"><img src="img/tba.png" width="auto"
+							data-w-id="1c40a8e6-5075-738a-3a3b-1cabe12f408c" style="opacity:0" alt="" />
+					</div>
+					<!-- <h3 data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3dd"
+						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)">
+						Distributed by</h3>
+					<div data-w-id="bde65c49-3eeb-3873-bb0b-461dac42d3df"
+						style="-webkit-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 150PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)"
+						class="info-txt">Warner Bros</div> -->
 				</div>
 			</div>
 		</div>
 	</div>
 	<div data-w-id="606a0e05-a512-3e03-745e-8123ddf930c1" class="text-block-parent-1"><img
-			src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull.png"
-			width="400"
-			srcset="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull-p-500.png 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull-p-800.png 800w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d1ccf5390704ad21f992d8e_skull.png 820w"
-			sizes="(max-width: 479px) 100vw, (max-width: 767px) 380px, 400px" alt="" class="skull" /><img
-			src="tagl.png" width="298"
-			srcset="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeb65d43eb732944316c4_logo-p-500.png 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5cffeb65d43eb732944316c4_logo-p-800.png 800w, tagl.png 856w"
-			sizes="100vw" alt="" class="g-logo" /><img
-			src="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d25e8040574eeecaa75cbdd_last-part.png"
-			srcset="https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d25e8040574eeecaa75cbdd_last-part-p-500.png 500w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d25e8040574eeecaa75cbdd_last-part-p-800.png 800w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d25e8040574eeecaa75cbdd_last-part-p-1080.png 1080w, https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d25e8040574eeecaa75cbdd_last-part.png 1280w"
+			src="img/council2k22.png"
+			srcset="img/council500.png 500w, img/council500.png 800w, img/council500.png 1080w, img/council2k22.png 1280w"
 			sizes="(max-width: 1280px) 100vw, 1280px" data-w-id="d927dd04-0c72-948e-6fa1-5a00951da241" alt=""
 			class="people" /></div>
 	<div id="gallery" data-w-id="d94b74cc-b7e0-89d2-0bb5-445beb26e074" class="scroll-container-3">
@@ -1470,7 +1449,7 @@
 		</div>
 		<div class="copy-link">
 			<div data-w-id="69f8d244-cd04-10ba-5df4-1dd3ff46c661" class="info-txt">Register Now </div>
-			<h1 data-w-id="5e5e98cd-ac0b-2ab3-b65f-502967be1a7c" class="head-link">Click Here</h1>
+			<h1 data-w-id="5e5e98cd-ac0b-2ab3-b65f-502967be1a7c" class="head-link"></h1>
 			<iframe src="https://register-debug-club.vercel.app/"></iframe>
 			<div class="info-txt"><a href="#home" data-w-id="67a401a0-b89d-e5b3-7545-b95d69ab726c"
 					class="back-to-top">Back to top</a></div>
@@ -1479,9 +1458,15 @@
 			<div data-w-id="916d8442-7cf9-a89a-c568-5a1f5828ee09" class="draw-line-inner-top"></div>
 		</div>
 	</div>
+	
 	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="webflow.js" type="text/javascript"></script>
+	
+
+
+	
+	
 	<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 	<script>
 		/*
@@ -1605,7 +1590,7 @@
 
 
 	</script>
-
+	
 
 
 	<script>
@@ -1730,5 +1715,4 @@
 
 
 </body>
-
 </html>

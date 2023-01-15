@@ -258,7 +258,6 @@ li {
   margin-right: auto;
   margin-left: auto;
 }
-
 .sticky-container {
   position: -webkit-sticky;
   position: sticky;
@@ -284,7 +283,7 @@ li {
   overflow: visible;
   width: 100%;
   height: 150vh;
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d13364599bb70e3560cc4e5_background-min%203.png");
+  background-image: url("img/parallex/leafs.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -374,7 +373,7 @@ li {
 .img-cast-1 {
   width: 100%;
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d000a3b16a6c64e19f1841b_1.jpg");
+  background-image: url("img/days/1.jpeg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -507,7 +506,7 @@ li {
 .img-cast-2 {
   width: 100%;
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d000a3b7c779fffb58ff3ed_2.jpg");
+  background-image: url("img/days/2.jpeg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -552,7 +551,7 @@ li {
 .img-cast-3 {
   width: 100%;
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d4029b7763f97bdb3dec2f7_jno507n0iz131.jpg");
+  background-image: url("img/days/3.jpeg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -607,7 +606,7 @@ li {
 .img-cast-4 {
   width: 100%;
   height: 100%;
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d002392773f43b68a233649_4.jpg");
+  background-image: url("img/days/4.jpeg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -820,14 +819,14 @@ li {
   margin-top: 48px;
   margin-right: 48px;
   margin-left: 48px;
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d000a3b16a6c64e19f1841b_1.jpg");
+  background-image: url("img/days/1.jpeg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .info-head-parent._1 {
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d000a3b7c779fffb58ff3ed_2.jpg");
+  background-image: url("img/days/2.jpeg");
   background-position: 50% 0%;
 }
 
@@ -837,7 +836,7 @@ li {
 }
 
 .info-head-parent._4 {
-  background-image: url("https://uploads-ssl.webflow.com/5cff83ac2044e22cb8cf2f11/5d002392773f43b68a233649_4.jpg");
+  background-image: url("img/days/4.jpeg");
   background-position: 50% 0%;
   background-size: cover;
 }
@@ -1051,9 +1050,9 @@ li {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
 }
 
-.grid-parent.no-b {
+/* .grid-parent.no-b {
   border-bottom-style: none;
-}
+} */
 
 .grid-parent.no-b-l {
   border-right-style: none;
@@ -1581,8 +1580,8 @@ li {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 36px;
-  height: 36px;
+  width: 57px;
+  height: 45px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1946,6 +1945,9 @@ li {
 }
 
 .text-block-parent-1 {
+  background-image: url(img/council.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2057,7 +2059,9 @@ li {
     height: 140px;
   }
   .map-parent {
-    display: none;
+    /* display: none; */
+    left:13px;
+    bottom: 25px;
   }
   .map-child {
     display: none;
@@ -2133,9 +2137,9 @@ li {
   .scroll-container-2 {
     height: 1000px;
   }
-  .sticky-container-2 {
+  /* .sticky-container-2 {
     height: 100%;
-  }
+  } */
   .scroller {
     top: 65vw;
   }
@@ -2423,6 +2427,7 @@ li {
   .grid-parent.no-b.m-b {
     top: 0px;
     border-bottom-style: solid;
+    border-right-style:solid;
   }
   .grid-parent.no-b.b-l {
     border-top-style: solid;
@@ -2504,6 +2509,7 @@ li {
   }
   .text-block-parent-1 {
     height: 70vh;
+    background-position-x: -120px;
   }
   .people {
     width: 520px;
