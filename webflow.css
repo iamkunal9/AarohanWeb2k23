@@ -2040,8 +2040,9 @@ li {
 }
 
 @media (max-width: 991px) {
-  .text-block-parent-1{
-    background-image: url(img/counciland.png);
+  #council{
+    top: 26rem !important;
+    font-size: 1.5rem !important;
   }
   .sub-title{
     font-size: 60px;
