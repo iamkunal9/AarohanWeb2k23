@@ -805,8 +805,8 @@ li {
 .img-head-2 {
   margin-top: 20px;
   margin-bottom: 30px;
-  font-size: 40px;
-  line-height: 26px;
+  font-size: 40px;    
+  line-height: 46px;
 }
 
 .info-head-parent {
@@ -1945,7 +1945,7 @@ li {
 }
 
 .text-block-parent-1 {
-  background-image: url(img/council.jpeg);
+  background-image: url(img/Simple\ Photo\ Collage\ Grid\ Social\ Media\ \(1920\ ×\ 1080\ px\)-min.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -1955,7 +1955,7 @@ li {
   display: flex;
   overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 116vh;
   max-width: 1500px;
   margin-right: auto;
   margin-left: auto;
