@@ -1572,7 +1572,7 @@ li {
 
 .map-parent {
   position: fixed;
-  left: 60px;
+  left: 50px;
   bottom: 40px;
   z-index: 9997;
   display: -webkit-box;
@@ -1580,7 +1580,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 57px;
+  width: 75px;
   height: 45px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -2040,6 +2040,9 @@ li {
 }
 
 @media (max-width: 991px) {
+  .text-block-parent-1{
+    background-image: url(img/counciland.png);
+  }
   .sub-title{
     font-size: 60px;
 
@@ -2139,7 +2142,7 @@ li {
     flex: 0 0 auto;
   }
   .scroll-container-2 {
-    height: 607px;
+    height: 671px;
   }
   /* .sticky-container-2 {
     height: 100%;
@@ -2513,7 +2516,7 @@ li {
   }
   .text-block-parent-1 {
     height: 70vh;
-    background-position-x: -120px;
+    background-position-x: -183px;
   }
   .people {
     width: 520px;
